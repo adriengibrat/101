@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+  <title>101</title>
+</head>
+<body>
+  <input type="radio" id="left" name="rotate" checked>
+  <label for="left">Left</label>
+  <input type="radio" id="reset" name="rotate">
+  <label for="reset">Reset</label>
+  <input type="radio" id="right" name="rotate" checked>
+  <label for="right">Right</label>
+  <input type="radio" id="up" name="rotate">
+  <label for="up">Up</label>
+  <input type="radio" id="down" name="rotate">
+  <label for="down">Down</label>
+
+  <div class="perspective">
+    <div class="game _animate">
+    </div>
+    <div class="bot">
+      <div class="head">
+        <div class="top"></div>
+        <div class="front"></div>
+        <div class="left"></div>
+        <div class="right"></div>
+        <div class="back"></div>
+      </div>
+      <div class="torso">
+        <div class="front"></div>
+        <div class="left"></div>
+        <div class="right"></div>
+        <div class="back"></div>
+      </div>
+      <!--
+      <div class="left-arm">
+        <div class="top"></div>
+        <div class="front"></div>
+        <div class="left"></div>
+        <div class="right"></div>
+        <div class="back"></div>
+        <div class="bottom"></div>
+      </div>
+      <div class="right-arm">
+        <div class="top"></div>
+        <div class="front"></div>
+        <div class="left"></div>
+        <div class="right"></div>
+        <div class="back"></div>
+        <div class="bottom"></div>
+      </div>
+      <div class="left-leg">
+        <div class="front"></div>
+        <div class="left"></div>
+        <div class="right"></div>
+        <div class="back"></div>
+        <div class="bottom"></div>
+      </div>
+      <div class="right-leg">
+        <div class="front"></div>
+        <div class="left"></div>
+        <div class="right"></div>
+        <div class="back"></div>
+        <div class="bottom"></div>
+      </div>
+      -->
+    </div>
+  </div>
+
+  <script src="build/101.js"></script>
+  <script>
+    document.write(
+     '<script src="http://' + (location.host || 'localhost').split(':')[0] +
+     ':35729/livereload.js?snipver=1"></' + 'script>'
+    )
+  </script>
+</body>
+</html>
